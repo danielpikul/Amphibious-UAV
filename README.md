@@ -33,22 +33,9 @@ the instructions in the "Building using make" section.
    APM2) from the ArduPilot menu (in the top menubar).
 
 4. Restart the ArduPilot Arduino IDE. You should now be able to build
-   ArduPlane or ArduCopter from source.
+   ArduCopter from source.
 
 5. Remember that, after changing ArduPilot type (APM1 or APM2) in the
    IDE, you'll need to close and restart the IDE before continuing.
-
-```
-$ vagrant ssh
-# cd ardupilot/ArduCopter
-# make configure
-```
-
-Back at the terminal:
-
-```
-# make px4
-# make px4-upload  # (optional)
-```
 
 
